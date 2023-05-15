@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "NODE_OPTIONS='--openssl-legacy-provider' storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "NODE_OPTIONS='--openssl-legacy-provider' storybook build"
   },
   "eslintConfig": {
     "extends": [
@@ -61,9 +61,12 @@
     "@storybook/react-webpack5": "^7.0.11",
     "@storybook/testing-library": "^0.0.14-next.2",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.17.4",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.11",
     "webpack": "^5.82.1"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "learnstorybook-design-system-template@0.1.0"
 }
